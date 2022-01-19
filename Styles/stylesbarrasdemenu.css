@@ -1,0 +1,42 @@
+div{text-align: center;
+position: relative;
+left: 250px;}
+div#todo{border: solid 1px purple;
+width: 750px;
+height: 550px;
+text-align: center;
+}
+div#header{
+width: 700px;
+height: 25px;
+position: absolute;
+left:  25px;
+top: 5px;
+border: 2px solid red;}
+div#menu{width: 180px;
+height: 300px;	
+position: absolute;
+top: 40px;
+left: 35px;
+border: 2px solid green;
+}
+div#footer{width: 700px;
+height: 25px;
+position: absolute;
+left: 25px;
+bottom: 5px;
+border: 2px solid red;}
+div#content{width: 450px;
+height: 465px;
+border: solid 2px blue;
+position: absolute;
+top: 40px;}
+#En1{text-align: left;
+display: block;}
+#En2{text-align: left;
+display: block;}
+#En3{text-align: left;
+display: block;}
+#texto{text-align: left;}
+a{text-decoration: none;}
+@media screen and (max-width: 900px)

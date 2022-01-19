@@ -1,0 +1,19 @@
+.div_grid{display: grid;
+	grid-template-columns: 20px auto auto auto;
+	grid-template-rows: 100px 100px 100px;
+	background-color: red;}
+#one{grid-column-start: 1;
+	grid-column-end: 3;
+	background-color: blue;}
+#two{grid-row: 1/3;
+	grid-column: 3/4;
+	background-color: purple;}
+#three{background-color: yellow;}
+#four{background-color: white;}
+#five{background-color: white;}
+#six{grid-row: 2/4;
+	grid-column: 4/5;
+	background-color: grey;}
+#seven{background-color: white;}
+#eight{grid-column: 3/4;
+background-color: lightblue;}
